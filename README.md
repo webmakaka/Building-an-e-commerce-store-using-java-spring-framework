@@ -12,7 +12,7 @@ Technologies: Spring MVC 4.2, Twitter Bootstrap 3.3.6, JQuery 1.12
 http://getbootstrap.com/examples/carousel/
 
 
-010 Add the Landing Page to IDE - Part 1
+**010 Add the Landing Page to IDE - Part 1**
 
 
 IDEA:
@@ -38,12 +38,21 @@ mkdir src/main/webapp
 mv WEB-INF src/main/webapp  
 
 
-**Project Structure --> Facets**  
+**File --> Project Structure --> Facets**  
 
 Web --> Update: Deployment Descriptors and Web Resource Directories.  
 Spring --> Remove duplicate Application Context  
 
 
-**Project Structure --> Artifacts**
+**File --> Project Structure --> Artifacts**
 
 Select Spring and Spring MVC --> Put into WEB-INF/lib
+
+
+<br/>
+
+**011 Add the Landing Page to IDE - Part 2**
+
+**File --> Project Structure --> Artifacts**
+
+Select Maven:jstl and Maven:Taglibs --> Put into WEB-INF/lib
