@@ -13,10 +13,10 @@
         <title>Carousel Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="<c:url value="resources/css/bootstrap.min.css" />" rel="stylesheet">
+        <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="<c:url value="resources/css/carousel.css" />" rel="stylesheet">
+        <link href="<c:url value="/resources/css/carousel.css" />" rel="stylesheet">
     </head>
     <!-- NAVBAR
     ================================================== -->
@@ -37,8 +37,8 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#about">About</a></li>
+                                <li class="active"><a href="<c:url value="/"/>">Home</a></li>
+                                <li><a href="<c:url value="/productList"/>">Products</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -154,8 +154,8 @@
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="<c:url value="resources/js/jquery-1.12.0.min.js" />"></script>
-        <script>window.jQuery || document.write('<script src="<c:url value="resources/js/jquery-1.12.0.min.js" />"><\/script>')</script>
-        <script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
+        <script src="<c:url value="/resources/js/jquery-1.12.0.min.js" />"></script>
+        <script>window.jQuery || document.write('<script src="<c:url value="/resources/js/jquery-1.12.0.min.js" />"><\/script>')</script>
+        <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
     </body>
 </html>

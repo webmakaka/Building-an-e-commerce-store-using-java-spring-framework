@@ -58,9 +58,16 @@ Select Spring and Spring MVC --> Put into WEB-INF/lib
 Select Maven:jstl and Maven:Taglibs --> Put into WEB-INF/lib
 
 
-
 <br/>
 
 **012 Adding the Product Domain Model**
 
 http://localhost:8080/productList/
+
+
+
+<br/>
+
+**013 Build the Product List using Bootstrap Table Components**
+
+http://localhost:8080/
