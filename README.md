@@ -71,3 +71,10 @@ http://localhost:8080/productList/
 **013 Build the Product List using Bootstrap Table Components**
 
 http://localhost:8080/
+
+
+<br/>
+
+**014 Add Common Template and Product Detail Page**
+
+http://localhost:8080/productList/viewProduct
