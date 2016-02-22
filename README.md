@@ -78,3 +78,9 @@ http://localhost:8080/
 **014 Add Common Template and Product Detail Page**
 
 http://localhost:8080/productList/viewProduct
+
+<br/>
+
+**015 Develop Dynamic Page to Show Product Data**
+
+http://localhost:8080/productList/viewProduct/P121
