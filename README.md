@@ -99,6 +99,8 @@ http://localhost:8080/productList/viewProduct/P121
 
 017 ORM Object-Relational-Mapping
 
+Theory
+
 018 Add Database Function with Spring Hibernate and Java Persistence - Part 1
 
 http://h2database.com/html/main.html
@@ -138,6 +140,18 @@ ProductStatus: Active
 ProductInStock: 23  
 
 
+**File --> Project Structure --> Artifacts**
+
+Select libs --> Put into WEB-INF/lib
+
+
 http://localhost:8080/productList/
 
 2 record should be shown on website
+
+![Application](/img/pic1.png?raw=true)
+
+
+020 Develop Add-Product Function - Part 1
+
+http://localhost:8080/admin/
