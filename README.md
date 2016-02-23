@@ -1,8 +1,17 @@
 # [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
 
-Environment: JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
-Technologies: Spring MVC 4.2, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+https://www.udemy.com/building-an-e-commerce-store-using-java-spring-framework/
 
+
+If you will register on udemy.com and click on "Start Free Preview", аfter some period you can receive (by email) big discount on this course.
+
+___
+
+
+Environment: JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
+Technologies: Spring MVC 4.2, Hibernate 4.0.1, H2 databse 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+
+___
 
 ### 04 Online Music Store Website Part 1 - Landing Page, Product Model and Product List
 
@@ -65,7 +74,6 @@ Select Maven:jstl and Maven:Taglibs --> Put into WEB-INF/lib
 http://localhost:8080/productList/
 
 
-
 <br/>
 
 **013 Build the Product List using Bootstrap Table Components**
@@ -84,3 +92,52 @@ http://localhost:8080/productList/viewProduct
 **015 Develop Dynamic Page to Show Product Data**
 
 http://localhost:8080/productList/viewProduct/P121
+
+<br/>
+
+### 05 Online Music Store Website Part 2 - Spring Data with ORM, Hibernate and JPA
+
+017 ORM Object-Relational-Mapping
+
+018 Add Database Function with Spring Hibernate and Java Persistence - Part 1
+
+http://h2database.com/html/main.html
+
+    $ cd /mnt/dsk0/downloads/h2/bin
+    $ java -jar h2-1.3.176.jar
+
+http://127.0.1.1:8082/
+
+019 Add Database Function with Spring Hibernate and Java Persistence - Part 2
+
+http://localhost:8080/productList/
+
+http://127.0.1.1:8082/
+
+Add next records to DataBase:  
+
+ProductId: 1  
+ProductCategory: Instrument  
+ProductCondition: New  
+ProductDescription: Ihis is a description  
+ProductManufacturer: Manu1  
+ProductName: Guitar1  
+ProductPrice: 123.1  
+ProductStatus: Active  
+ProductInStock: 11  
+
+
+ProductId: 2  
+ProductCategory: Record  
+ProductCondition: Used  
+ProductDescription: Record description  
+ProductManufacturer: Manu2  
+ProductName: Record1  
+ProductPrice: 23.0  
+ProductStatus: Active  
+ProductInStock: 23  
+
+
+http://localhost:8080/productList/
+
+2 record should be shown on website
