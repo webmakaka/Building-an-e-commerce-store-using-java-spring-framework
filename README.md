@@ -155,3 +155,7 @@ http://localhost:8080/productList/
 020 Develop Add-Product Function - Part 1
 
 http://localhost:8080/admin/
+
+021 Develop Add-Product Function - Part 2
+
+http://localhost:8080/admin/productInventory/addProduct
