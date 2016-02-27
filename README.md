@@ -170,3 +170,16 @@ http://localhost:8080/admin/productInventory/addProduct
 
 
 023 Add Product Image - Part 2
+
+
+**File --> Project Structure --> Artifacts**
+
+
+Output directory: /mnt/dsk0/projects/dev/Building-an-e-commerce-store-using-java-spring-framework/src/main/webapp
+
+Select new jar --> Put into WEB-INF/lib
+
+
+http://localhost:8080/admin/productInventory
+
+Now we can add and remove images.
