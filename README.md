@@ -9,7 +9,7 @@ ___
 
 
 Environment: JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
-Technologies: Spring MVC 4.2, Hibernate 4.0.1, H2 databse 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+Technologies: Spring MVC 4.2, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
 
 ___
 
@@ -106,6 +106,11 @@ Theory
 http://h2database.com/html/main.html
 
     $ cd /mnt/dsk0/downloads/h2/bin
+    $ chmod +x ./h2.sh
+    $ ./h2.sh
+
+or
+
     $ java -jar h2-1.3.176.jar
 
 http://127.0.1.1:8082/
@@ -159,3 +164,9 @@ http://localhost:8080/admin/
 021 Develop Add-Product Function - Part 2
 
 http://localhost:8080/admin/productInventory/addProduct
+
+
+022 Add Product Image - Part 1
+
+
+023 Add Product Image - Part 2
