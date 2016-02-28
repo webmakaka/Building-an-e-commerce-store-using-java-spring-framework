@@ -189,3 +189,6 @@ Now we can add and remove images.
 
 
 025 Add Update-Product Function - Part 2
+
+
+026 Page Layout Revisit
