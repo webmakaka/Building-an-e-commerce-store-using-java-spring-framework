@@ -183,3 +183,9 @@ Select new jar --> Put into WEB-INF/lib
 http://localhost:8080/admin/productInventory
 
 Now we can add and remove images.
+
+
+024 Add Update-Product Function - Part 1
+
+
+025 Add Update-Product Function - Part 2

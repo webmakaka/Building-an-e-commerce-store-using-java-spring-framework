@@ -18,12 +18,16 @@ public class ProductDaoImpl implements ProductDao{
     @Autowired
     private SessionFactory sessionFactory;
 
-
     public void addProduct(Product product) {
         Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(product);
         session.flush();
+    }
 
+    public void editProduct(Product product) {
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(product);
+        session.flush();
     }
 
     public Product getProductById(String id) {

@@ -5,16 +5,19 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Add Product</h1>
+            <h1>Edit Product</h1>
 
 
-            <p class="lead">Fill the below information to add a product:</p>
+            <p class="lead">Please update the product information here:</p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product" enctype="multipart/form-data">
+        <form:form action="${pageContext.request.contextPath}/admin/productInventory/editProduct" method="post" commandName="product" enctype="multipart/form-data">
+
+         <form:hidden path="productId" value="${product.productId}" />
+
             <div class="form-group">
                 <label for="name">Name</label>
-                <form:input path="productName" id="name" class="form-Control" />
+                <form:input path="productName" id="name" class="form-Control" value="${product.productName}"/>
             </div>
 
             <div class="form-group">
@@ -26,12 +29,12 @@
 
             <div class="form-group">
                 <label for="description">Description</label>
-                <form:textarea path="productDescription" id="description" class="form-Control" />
+                <form:textarea path="productDescription" id="description" class="form-Control" value="${product.productDescription}"/>
             </div>
 
             <div class="form-group">
                 <label for="price">Price</label>
-                <form:input path="productPrice" id="price" class="form-Control" />
+                <form:input path="productPrice" id="price" class="form-Control" value="${product.productPrice}" />
             </div>
 
             <div class="form-group">
@@ -48,12 +51,12 @@
 
             <div class="form-group">
                 <label for="unitInStock">Uniti In Stock</label>
-                <form:input path="unitInStock" id="unitInStock" class="form-Control" />
+                <form:input path="unitInStock" id="unitInStock" class="form-Control" value="${product.unitInStock}"/>
             </div>
 
             <div class="form-group">
                 <label for="manufacturer">Manufacturer</label>
-                <form:input path="productManufacturer" id="manufacturer" class="form-Control" />
+                <form:input path="productManufacturer" id="manufacturer" class="form-Control" value="${product.productManufacturer}"/>
             </div>
 
             <div class="form-group">
@@ -61,11 +64,11 @@
                 <form:input id="productImage" path="productImage" type="file" class="form:input-large" />
             </div>
 
-        <br/><br/>
+            <br/><br/>
 
-        <input type="submit" value="submit" class="btn btn-default">
-        <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
+            <input type="submit" value="submit" class="btn btn-default">
+            <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
 
-    </form:form>
+        </form:form>
 
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
