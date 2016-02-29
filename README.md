@@ -192,3 +192,16 @@ Now we can add and remove images.
 
 
 026 Page Layout Revisit
+
+
+027 Validation
+
+pom.xml
+
+    org.hibernate
+    javax.validation
+
+
+**File --> Project Structure --> Artifacts**
+
+Select new jar --> Put into WEB-INF/lib
