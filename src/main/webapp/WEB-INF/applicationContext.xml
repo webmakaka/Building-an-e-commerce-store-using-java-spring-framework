@@ -40,7 +40,7 @@
     <security:http auto-config="true">
         <security:intercept-url pattern="/admin/**" access="ROLE_USER" />
         <security:form-login
-            login-page="'login"
+            login-page="/login"
             default-target-url="/admin/"
             authentication-failure-url="/login?error"
             username-parameter="username"
