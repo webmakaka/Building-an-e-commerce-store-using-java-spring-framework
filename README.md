@@ -215,7 +215,7 @@ Select new jar --> Put into WEB-INF/lib
 029 Spring Security - Part 1
 
 
-pom.xml
+pom.xml new dependency
 
     spring-context
     spring-security-core
@@ -260,3 +260,18 @@ Select new jar --> Put into WEB-INF/lib
 
 
 http://localhost:8080/login
+
+
+031 Shopping Cart - Part 1
+
+
+
+pom.xml new dependency
+
+    jackson-core
+    jackson-annotations
+    jackson-databind
+
+**File --> Project Structure --> Artifacts**
+
+Select new jar --> Put into WEB-INF/lib

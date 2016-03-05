@@ -1,5 +1,6 @@
-package com.emusicstore.dao;
+package com.emusicstore.dao.impl;
 
+import com.emusicstore.dao.ProductDao;
 import com.emusicstore.model.Product;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -12,7 +13,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class ProductDaoImpl implements ProductDao{
+public class ProductDaoImpl implements ProductDao {
 
 
     @Autowired
@@ -52,4 +53,6 @@ public class ProductDaoImpl implements ProductDao{
         session.delete(getProductById(id));
         session.flush();
     }
-}
+
+} // The End of Class;
+
