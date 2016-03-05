@@ -3,10 +3,12 @@ package com.emusicstore.dao.impl;
 
 import com.emusicstore.dao.CartDao;
 import com.emusicstore.model.Cart;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class CartDaoImpl implements CartDao{
 
     private Map<String, Cart> listOfCarts;

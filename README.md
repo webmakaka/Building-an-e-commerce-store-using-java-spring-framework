@@ -265,7 +265,6 @@ http://localhost:8080/login
 031 Shopping Cart - Part 1
 
 
-
 pom.xml new dependency
 
     jackson-core
@@ -275,3 +274,6 @@ pom.xml new dependency
 **File --> Project Structure --> Artifacts**
 
 Select new jar --> Put into WEB-INF/lib
+
+
+032 Shopping Cart - Part 2
