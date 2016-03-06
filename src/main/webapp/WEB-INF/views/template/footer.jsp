@@ -9,11 +9,15 @@
 </div><!-- /.container -->
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+<!-- Angular.JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+
+<!-- JQuery -->
 <script src="<c:url value="/resources/js/jquery-1.12.0.min.js" />"></script>
 <script>window.jQuery || document.write('<script src="<c:url value="/resources/js/jquery-1.12.0.min.js" />"><\/script>')</script>
+
+<!-- Bootstrap.js -->
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+
 </body>
 </html>
