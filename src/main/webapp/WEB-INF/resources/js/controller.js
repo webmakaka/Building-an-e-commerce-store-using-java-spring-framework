@@ -9,7 +9,7 @@ cartApp.controller("cartCtrl", function($scope, $http){
    };
 
     $scope.clearCart = function(){
-        $http.delete('/rest/cart' + $scope.cartId).success($scope.refreshCart($scope.cartId));
+        $http.delete('/rest/cart/' + $scope.cartId).success($scope.refreshCart($scope.cartId));
     }
 
     $scope.initCartId = function(cartId){
@@ -18,7 +18,7 @@ cartApp.controller("cartCtrl", function($scope, $http){
     };
 
     $scope.addToCart = function(productId){
-        $http.put('/rest/cart/add' + produtId).success(function (data){
+        $http.put('/rest/cart/add/' + productId).success(function (data){
             $scope.refreshCart($http.get('/rest/cart/cartId'));
             alert('Product successfully added to the cart!');
         });

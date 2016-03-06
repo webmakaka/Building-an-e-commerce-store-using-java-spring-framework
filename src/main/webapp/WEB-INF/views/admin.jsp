@@ -22,5 +22,4 @@
 
         <p>Here you can view, check and modify the product inventory!</p>
 
-
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>

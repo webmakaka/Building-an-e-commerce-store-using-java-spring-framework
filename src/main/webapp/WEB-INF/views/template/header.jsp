@@ -21,6 +21,9 @@
     <!-- Main CSS -->
     <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
 
+    <!-- Angular.JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.js"></script>
+
 
 </head>
 <!-- NAVBAR

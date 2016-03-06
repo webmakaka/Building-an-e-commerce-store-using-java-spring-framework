@@ -39,7 +39,7 @@ public class CartController {
         cartDao.delete(cartId);
     }
 
-    @RequestMapping(value = "/add/{productId" , method = RequestMethod.PUT)
+    @RequestMapping(value = "/add/{productId}" , method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void addItem(@PathVariable (value = "productId") String productId, HttpServletRequest request){
         String sessionId = request.getSession(true).getId();

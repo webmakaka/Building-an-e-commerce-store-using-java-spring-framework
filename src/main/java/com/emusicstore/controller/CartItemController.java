@@ -14,10 +14,10 @@ public class CartItemController {
 
     @RequestMapping
     public String get(HttpServletRequest request){
-        return "redirect/cart/" + request.getSession(true).getId();
+        return "redirect:/cart/" + request.getSession(true).getId();
     }
 
-    @RequestMapping(value="/{cartId", method = RequestMethod.GET)
+    @RequestMapping(value="/{cartId}", method = RequestMethod.GET)
     public String getCart (@PathVariable (value = "cartId") String cartId, Model model){
         model.addAttribute("cartId", cartId);
 

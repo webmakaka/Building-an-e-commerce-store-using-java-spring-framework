@@ -18,7 +18,7 @@
                 <th>Category</th>
                 <th>Condition</th>
                 <th>Price</th>
-                <th>Price</th>
+                <th></th>
             </tr>
             </thead>
             <c:forEach items="${products}" var="product">
