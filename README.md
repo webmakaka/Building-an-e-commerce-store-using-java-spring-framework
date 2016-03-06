@@ -1,3 +1,12 @@
+### On our website [JavaLabs](http://javalabs.org) we study video courses about java development.
+
+If you will watch any courses, read books and etc about java development and will want to share your decision or discuss any problems, just contact us. We can create discussion board.
+
+It is much more interesting when group of developers working on one project.
+
+[Marley](http://marley.org)
+___
+
 # [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
 
 https://www.udemy.com/building-an-e-commerce-store-using-java-spring-framework/
@@ -283,3 +292,18 @@ Select new jar --> Put into WEB-INF/lib
 034 Shopping Cart - Part 4
 
 035 Shopping Cart - Part 5
+
+![Application](/img/pic2.png?raw=true)
+
+
+
+<br/>
+
+### 07 Online Music Store Website Part 4 - Developing a More Sophisticated System
+
+
+037 System Flow and Entity Relationship Diagrams
+
+![Application](/img/pic3.png?raw=true)
+
+![Application](/img/pic4.png?raw=true)
