@@ -314,3 +314,32 @@ Select new jar --> Put into WEB-INF/lib
 040 Product Admin Control - Part 1
 
 http://localhost:8080/product/productList
+
+041 Product Admin Control - Part 2
+
+    drop table USERS;
+    drop table AUTHORITIES
+
+
+restart ./h2.sh  
+redeploy app  
+
+After that:
+
+add to USERS table:
+
+    USERSID: 1
+    CUSTOMERID: 1
+    ENABLED: 1
+    PASSWORD: admin
+    USERNAME: admin
+
+add to AUTHORITIES table:
+
+    AUTHORITIESID: 1
+    AUTHORITY: ROLE_ADMIN
+    USERNAME: admin
+
+
+http://localhost:8080/login  
+http://localhost:8080/admin
