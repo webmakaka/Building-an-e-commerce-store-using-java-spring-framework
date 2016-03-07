@@ -1,10 +1,47 @@
 package com.emusicstore.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public class CartItem {
+import javax.persistence.*;
+import java.io.Serializable;
 
+@Entity
+public class CartItem implements Serializable {
 
+    private static final long serialVersionUID = -904360230041854157L;
+
+    @Id
+    @GeneratedValue
+    private int cartItemId;
+
+    @ManyToOne
+    @JoinColumn(name = "cartId")
+    @JsonIgnore
+    private Cart cart;
+
+    @ManyToOne
+    @JoinColumn(name = "productId")
     private Product product;
+
+    private int quantity;
+    private double totalPrice;
+
+
+    public int getCartItemId() {
+        return cartItemId;
+    }
+
+    public void setCartItemId(int cartItemId) {
+        this.cartItemId = cartItemId;
+    }
+
+    public Cart getCart() {
+        return cart;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
+    }
 
     public Product getProduct() {
         return product;
@@ -14,11 +51,6 @@ public class CartItem {
         this.product = product;
     }
 
-    // ------------------------------
-
-    private int quantity;
-
-
     public int getQuantity() {
         return quantity;
     }
@@ -27,10 +59,6 @@ public class CartItem {
         this.quantity = quantity;
     }
 
-    // ------------------------------
-
-    private double totalPrice;
-
     public double getTotalPrice() {
         return totalPrice;
     }
@@ -38,21 +66,5 @@ public class CartItem {
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
     }
-
-
-    // =====================================
-
-    public CartItem(){
-
-    }
-
-    public CartItem(Product product) {
-        this.product = product;
-        this.quantity = 1;
-        this.totalPrice = product.getProductPrice();
-    }
-
-
-
-
+    
 } // The End of Class;

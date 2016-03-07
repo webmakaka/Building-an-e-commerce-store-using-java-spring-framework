@@ -17,8 +17,8 @@ If you will register on udemy.com and click on "Start Free Preview", аfter some
 ___
 
 
-Environment: JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
-Technologies: Spring MVC 4.2, Spring Security 3.1.4, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+**Environment:** JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
+**Technologies:** Spring MVC 4.2, Spring Security 3.1.4, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
 
 ___
 
@@ -296,7 +296,6 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic2.png?raw=true)
 
 
-
 <br/>
 
 ### 07 Online Music Store Website Part 4 - Developing a More Sophisticated System
@@ -307,3 +306,5 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic3.png?raw=true)
 
 ![Application](/img/pic4.png?raw=true)
+
+038 Adding Various Models - Part 1
