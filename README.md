@@ -308,3 +308,5 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic4.png?raw=true)
 
 038 Adding Various Models - Part 1
+
+039 Adding Various Models - Part 2
