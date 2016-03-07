@@ -343,3 +343,6 @@ add to AUTHORITIES table:
 
 http://localhost:8080/login  
 http://localhost:8080/admin
+
+
+042 Product Admin Control - Part 3
