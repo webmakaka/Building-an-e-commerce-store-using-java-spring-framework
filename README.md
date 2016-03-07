@@ -310,3 +310,7 @@ Select new jar --> Put into WEB-INF/lib
 038 Adding Various Models - Part 1
 
 039 Adding Various Models - Part 2
+
+040 Product Admin Control - Part 1
+
+http://localhost:8080/product/productList

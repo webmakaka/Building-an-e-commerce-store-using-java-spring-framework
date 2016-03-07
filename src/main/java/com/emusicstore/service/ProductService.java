@@ -1,11 +1,11 @@
-package com.emusicstore.dao;
+package com.emusicstore.service;
 
 
 import com.emusicstore.model.Product;
 
 import java.util.List;
 
-public interface ProductDao {
+public interface ProductService {
 
     List<Product> getProductList();
 
@@ -16,4 +16,5 @@ public interface ProductDao {
     void editProduct(Product product);
 
     void deleteProduct(Product product);
+
 }

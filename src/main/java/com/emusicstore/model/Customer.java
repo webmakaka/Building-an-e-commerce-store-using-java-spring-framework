@@ -32,11 +32,11 @@ public class Customer implements Serializable{
 
     private boolean enabled;
 
-    @OneToMany
+    @OneToOne
     @JoinColumn(name = "billingAddressId")
     private BillingAddress billingAddress;
 
-    @OneToMany
+    @OneToOne
     @JoinColumn(name = "shippingAddressId")
     private ShippingAddress shippingAddress;
 

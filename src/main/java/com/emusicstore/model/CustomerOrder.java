@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-public class CustomOrder implements Serializable{
+public class CustomerOrder implements Serializable{
 
 
     private static final long serialVersionUID = -1546649310334411202L;

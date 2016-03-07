@@ -17,6 +17,7 @@ public class BillingAddress implements Serializable{
     @Id
     @GeneratedValue
     private int billingAddressId;
+
     private String streetName;
     private String apartmentNumber;
     private String city;
