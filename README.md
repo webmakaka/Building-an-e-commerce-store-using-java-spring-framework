@@ -364,8 +364,6 @@ redeploy app
 
 047 Cart Controller - Part 2
 
-
-
 **File --> Project Structure --> Artifacts**
 
 Select new jar --> Put into WEB-INF/lib
@@ -373,3 +371,8 @@ Select new jar --> Put into WEB-INF/lib
 Remove deprecated spring-security packages
 
 Apply
+
+
+048 Cart REST Services - Part 1
+
+![Application](/img/pic6.png?raw=true)
