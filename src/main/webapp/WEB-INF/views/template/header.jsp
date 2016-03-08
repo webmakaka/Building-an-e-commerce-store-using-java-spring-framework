@@ -50,7 +50,8 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
-                        <li class="active"><a href="<c:url value="/admin/" />">Admin</a></li>
+                        <li><a href="<c:url value="/admin/" />">Admin</a></li>
+                        <li><a href="<c:url value="/register/" />">Register</a></li>
                     </ul>
                 </div>
             </div>

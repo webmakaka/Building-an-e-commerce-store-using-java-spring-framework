@@ -351,3 +351,6 @@ http://localhost:8080/admin
     drop table PRODUCT;
 
 redeploy app
+
+
+044 Customer Registration - Part 1
