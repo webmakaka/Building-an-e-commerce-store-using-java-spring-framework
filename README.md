@@ -320,8 +320,6 @@ http://localhost:8080/product/productList
     drop table USERS;
     drop table AUTHORITIES
 
-
-restart ./h2.sh  
 redeploy app  
 
 After that:
@@ -346,3 +344,10 @@ http://localhost:8080/admin
 
 
 042 Product Admin Control - Part 3
+
+043 Product Admin Control - Part 4
+
+
+    drop table PRODUCT;
+
+redeploy app
