@@ -361,3 +361,15 @@ redeploy app
 
 
 046 Cart Controller - Part 1
+
+047 Cart Controller - Part 2
+
+
+
+**File --> Project Structure --> Artifacts**
+
+Select new jar --> Put into WEB-INF/lib
+
+Remove deprecated spring-security packages
+
+Apply

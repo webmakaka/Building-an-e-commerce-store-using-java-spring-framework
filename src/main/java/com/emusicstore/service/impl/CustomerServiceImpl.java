@@ -27,5 +27,9 @@ public class CustomerServiceImpl implements CustomerService{
         return customerDao.getAllCustomers();
     }
 
+    public Customer getCustomerByUsername (String username){
+        return customerDao.getCustomerByUsername(username);
+    }
+
 
 } // The End of Class;
