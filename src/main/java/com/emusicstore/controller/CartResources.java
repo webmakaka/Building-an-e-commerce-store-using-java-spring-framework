@@ -4,6 +4,7 @@ import com.emusicstore.model.Cart;
 import com.emusicstore.model.CartItem;
 import com.emusicstore.model.Customer;
 import com.emusicstore.model.Product;
+import com.emusicstore.service.CartItemService;
 import com.emusicstore.service.CartService;
 import com.emusicstore.service.CustomerService;
 import com.emusicstore.service.ProductService;
@@ -22,6 +23,9 @@ public class CartResources {
 
     @Autowired
     private CartService cartService;
+
+    @Autowired
+    private CartItemService cartItemService;
 
     @Autowired
     private CustomerService customerService;
@@ -47,8 +51,17 @@ public class CartResources {
                 CartItem cartItem = cartItems.get(i);
                 cartItem.setQuantity(cartItem.getQuantity() + 1);
                 cartItem.setTotalPrice(product.getProductPrice()*cartItem.getQuantity());
+                cartItemService.addCartItem(cartItem);
             }
         }
+
+        CartItem cartItem = new CartItem();
+        cartItem.setProduct(product);
+        cartItem.setQuantity(1);
+        cartItem.setTotalPrice(product.getProductPrice()*cartItem.getQuantity());
+        cartItem.setCart(cart);
+        cartItemService.addCartItem(cartItem);
+
     }
 
 
