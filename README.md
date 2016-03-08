@@ -354,3 +354,7 @@ redeploy app
 
 
 044 Customer Registration - Part 1
+
+045 Customer Registration - Part 2
+
+![Application](/img/pic5.png?raw=true)
