@@ -20,7 +20,7 @@ ___
 
 
 **Environment:** JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
-**Technologies:** Spring MVC 4.2, Spring Security 3.2.5, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+**Technologies:** Spring MVC 4.2, Spring Security 3.2.5, Spring WebFlow 2.3.3, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
 
 ___
 
@@ -392,3 +392,17 @@ Apply
 ### 08 Online Music Store Website Part 5 - Order Checkout - Spring Web Flow
 
 051 Add Customer Order
+
+052 Spring Web Flow Config
+
+![Application](/img/pic8.png?raw=true)
+
+
+pom.xml new dependency
+
+    org.springframework.webflow
+
+
+**File --> Project Structure --> Artifacts**
+
+Select new jar --> Put into WEB-INF/lib
