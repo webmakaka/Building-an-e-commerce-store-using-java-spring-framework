@@ -14,11 +14,13 @@ https://www.udemy.com/building-an-e-commerce-store-using-java-spring-framework/
 
 If you will register on udemy.com and click on "Start Free Preview", аfter some period you can receive (by email) big discount on this course.
 
+![Application](/img/pic0.png?raw=true)
+
 ___
 
 
 **Environment:** JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
-**Technologies:** Spring MVC 4.2, Spring Security 3.1.4, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
+**Technologies:** Spring MVC 4.2, Spring Security 3.2.5, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
 
 ___
 
@@ -383,3 +385,10 @@ Apply
 050 Cart REST Services - Part 3
 
 ![Application](/img/pic7.png?raw=true)
+
+
+<br/>
+
+### 08 Online Music Store Website Part 5 - Order Checkout - Spring Web Flow
+
+051 Add Customer Order
