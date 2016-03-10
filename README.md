@@ -417,3 +417,10 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic10.png?raw=true)
 
 ![Application](/img/pic11.png?raw=true)
+
+
+055 Customer Admin and Registration Validation
+
+![Application](/img/pic12.png?raw=true)
+
+![Application](/img/pic13.png?raw=true)
