@@ -49,7 +49,7 @@
 
         <br/><br/>
 
-        <button class="btn btn-default" name="_eventId_backToCoolectCustomerInfo">Back</button>
+        <button class="btn btn-default" name="_eventId_backToCollectCustomerInfo">Back</button>
 
         <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" />
 

@@ -409,3 +409,11 @@ Select new jar --> Put into WEB-INF/lib
 
 
 053 Add Web Flow Pages - Part 1
+
+054 Add Web Flow Pages - Part 2
+
+![Application](/img/pic9.png?raw=true)
+
+![Application](/img/pic10.png?raw=true)
+
+![Application](/img/pic11.png?raw=true)

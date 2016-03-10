@@ -37,11 +37,11 @@
 
     <end-state id="endState" />
 
-    <view-state id="InvalidCartWarning">
+    <view-state id="invalidCartWarning">
         <transition to="endState" />
     </view-state>
 
-    <end-state id="cancelCheckout" view="checkoutCancelled.jsp" />
+    <end-state id="cancelCheckout" view="checkOutCancelled.jsp" />
 
     <global-transitions>
         <transition on="cancel" to="cancelCheckout" />

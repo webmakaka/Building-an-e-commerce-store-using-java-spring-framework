@@ -1,13 +1,13 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
 
+<jsp:useBean id="now" class="java.util.Date" />
 
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
             <h1>Order</h1>
-
 
             <p class="lead">Order confirmation</p>
         </div>
@@ -72,6 +72,17 @@
                                     </tr>
                                 </c:forEach>
 
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="text-right">
+                                        <h4><strong>Grand Total:</strong></h4>
+                                    </td>
+                                    <td class="text-center text-danger">
+                                        <h4><strong>$ ${order.cart.grandTotal}</strong></h4>
+                                    </td>
+                                </tr>
+
                                 </tbody>
                             </table>
                         </div>
@@ -81,9 +92,9 @@
 
                         <br/><br/>
 
-                        <button class="btn btn-default" name="_eventId_backToCoolectCustomerInfo">Back</button>
+                        <button class="btn btn-default" name="_eventId_backToCollectShippingDetail">Back</button>
 
-                        <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" />
+                        <input type="submit" value="Submit Order" class="btn btn-default" name="_eventId_orderConfirmed" />
 
                         <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
                     </div>
