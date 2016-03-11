@@ -22,6 +22,7 @@ ___
 **Environment:** JDK 1.8.0_72, TomCat 8.0, IDEA 15.0.3  
 **Technologies:** Spring MVC 4.2, Spring Security 3.2.5, Spring WebFlow 2.3.3, Hibernate 4.0.1, H2 database 1.4.191, Twitter Bootstrap 3.3.6, JQuery 1.12.0
 
+**I'm working on Ubuntu 14.04 Linux LTS**
 ___
 
 ### 04 Online Music Store Website Part 1 - Landing Page, Product Model and Product List
@@ -424,3 +425,7 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic12.png?raw=true)
 
 ![Application](/img/pic13.png?raw=true)
+
+========================
+
+# Pull Request to Update project are allowed.
