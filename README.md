@@ -426,6 +426,14 @@ Select new jar --> Put into WEB-INF/lib
 
 ![Application](/img/pic13.png?raw=true)
 
+
+056 Add Data Table
+
+https://datatables.net/
+
+
+
+
 ========================
 
 # Pull Request to Update project are allowed.
