@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,7 +20,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/productList")
+    @RequestMapping("/productList/all")
     public String getProducts(Model model){
         List<Product> products = productService.getProductList();
         model.addAttribute("products", products);
@@ -33,6 +34,15 @@ public class ProductController {
         model.addAttribute("product", product);
 
         return "viewProduct";
+    }
+
+    @RequestMapping("/productList")
+    public String getProductByCategory(@RequestParam("searchCondition") String searchCondition, Model model){
+        List<Product> products = productService.getProductList();
+        model.addAttribute("products", products);
+        model.addAttribute("searchCondition", searchCondition);
+
+        return "productList";
     }
 
 } // The End of Class;

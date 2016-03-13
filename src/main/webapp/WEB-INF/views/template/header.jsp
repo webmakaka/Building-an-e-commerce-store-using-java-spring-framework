@@ -53,9 +53,9 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="<c:url value="/"/>">Home</a></li>
-                        <li><a href="<c:url value="/product/productList"/>">Products</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="<c:url value="/" />">Home</a></li>
+                        <li><a href="<c:url value="/product/productList/all" />">Products</a></li>
+                        <li><a href="<c:url value="/about" />">About Us</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
                         <c:if test="${pageContext.request.userPrincipal.name != null}">

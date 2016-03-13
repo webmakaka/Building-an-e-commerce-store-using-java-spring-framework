@@ -432,8 +432,10 @@ Select new jar --> Put into WEB-INF/lib
 https://datatables.net/
 
 
+057 Finish Adding Data Table and Add Contact
 
 
-========================
+================
 
-# Pull Request to Update project are allowed.
+
+### Looks like this course is not ended yet ...
