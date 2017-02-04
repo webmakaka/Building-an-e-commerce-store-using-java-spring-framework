@@ -1,4 +1,4 @@
-### On our website [JavaLabs](http://javalabs.org) we study video courses about java development.
+### On our website [labs.javadev.org](http://labs.javadev.org) we study video courses about java development.
 
 If you will watch any courses, read books and etc about java development and will want to share your decision or discuss any problems, just contact us. We can create discussion board.
 
