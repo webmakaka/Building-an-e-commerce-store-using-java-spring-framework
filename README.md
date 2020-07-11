@@ -439,3 +439,15 @@ https://datatables.net/
 
 
 ### Looks like this course is not ended yet ...
+
+
+<br/>
+
+---
+
+<br/>
+
+**Marley**
+
+Any questions on eng: https://javadev.org/chat/  
+Любые вопросы на русском: https://javadev.ru/chat/
