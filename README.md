@@ -1,10 +1,5 @@
 # [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
 
-https://www.udemy.com/building-an-e-commerce-store-using-java-spring-framework/
-
-
-If you will register on udemy.com and click on "Start Free Preview", аfter some period you can receive (by email) big discount on this course.
-
 ![Application](/img/pic0.png?raw=true)
 
 ___
