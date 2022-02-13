@@ -420,13 +420,6 @@ https://datatables.net/
 
 057 Finish Adding Data Table and Add Contact
 
-
-================
-
-
-### Looks like this course is not ended yet ...
-
-
 <br/>
 
 ---
@@ -435,5 +428,5 @@ https://datatables.net/
 
 **Marley**
 
-Any questions on eng: https://javadev.org/chat/  
-Любые вопросы на русском: https://javadev.ru/chat/
+Any questions in english: <a href="https://javadev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://javadev.ru/chat/">Телеграм чат</a>
