@@ -1,12 +1,3 @@
-### On our website [labs.javadev.org](http://labs.javadev.org) we study video courses about java development.
-
-If you will watch any courses, read books and etc about java development and will want to share your decision or discuss any problems, just contact us. We can create discussion board.
-
-It is much more interesting when group of developers working on one project.
-
-[Marley](http://marley.org)
-___
-
 # [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
 
 https://www.udemy.com/building-an-e-commerce-store-using-java-spring-framework/
