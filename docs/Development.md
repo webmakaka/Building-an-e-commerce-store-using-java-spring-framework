@@ -11,15 +11,19 @@ ___
 **I'm working on Ubuntu 14.04 Linux LTS**
 ___
 
-### 04 Online Music Store Website Part 1 - Landing Page, Product Model and Product List
+## 04 Online Music Store Website Part 1 - Landing Page, Product Model and Product List
 
 
-009 Develop A Landing Page with Bootstrap Framework
+<br/>
+
+### 009 Develop A Landing Page with Bootstrap Framework
 
 http://getbootstrap.com/examples/carousel/
 
 
-**010 Add the Landing Page to IDE - Part 1**
+<br/>
+
+### 010 Add the Landing Page to IDE - Part 1
 
 
 IDEA:
@@ -58,7 +62,7 @@ Select Spring and Spring MVC --> Put into WEB-INF/lib
 
 <br/>
 
-**011 Add the Landing Page to IDE - Part 2**
+### 011 Add the Landing Page to IDE - Part 2
 
 **File --> Project Structure --> Artifacts**
 
@@ -67,39 +71,44 @@ Select Maven:jstl and Maven:Taglibs --> Put into WEB-INF/lib
 
 <br/>
 
-**012 Adding the Product Domain Model**
+
+### 012 Adding the Product Domain Model
 
 http://localhost:8080/productList/
 
 
 <br/>
 
-**013 Build the Product List using Bootstrap Table Components**
+### 013 Build the Product List using Bootstrap Table Components
 
 http://localhost:8080/
 
 
 <br/>
 
-**014 Add Common Template and Product Detail Page**
+### 014 Add Common Template and Product Detail Page
 
 http://localhost:8080/productList/viewProduct
 
 <br/>
 
-**015 Develop Dynamic Page to Show Product Data**
+### 015 Develop Dynamic Page to Show Product Data
 
 http://localhost:8080/productList/viewProduct/P121
 
 <br/>
 
-### 05 Online Music Store Website Part 2 - Spring Data with ORM, Hibernate and JPA
+## 05 Online Music Store Website Part 2 - Spring Data with ORM, Hibernate and JPA
 
-017 ORM Object-Relational-Mapping
+<br/>
+
+### 017 ORM Object-Relational-Mapping
 
 Theory
 
-018 Add Database Function with Spring Hibernate and Java Persistence - Part 1
+<br/>
+
+### 018 Add Database Function with Spring Hibernate and Java Persistence - Part 1
 
 http://h2database.com/html/main.html
 
@@ -111,9 +120,15 @@ or
 
     $ java -jar h2-1.3.176.jar
 
+Connect
+
+<br/>
+
 http://127.0.1.1:8082/
 
-019 Add Database Function with Spring Hibernate and Java Persistence - Part 2
+<br/>
+
+### 019 Add Database Function with Spring Hibernate and Java Persistence - Part 2
 
 http://localhost:8080/productList/
 
@@ -121,6 +136,7 @@ http://127.0.1.1:8082/
 
 Add next records to DataBase:  
 
+```
 ProductId: 1  
 ProductCategory: Instrument  
 ProductCondition: New  
@@ -141,7 +157,7 @@ ProductName: Record1
 ProductPrice: 23.0  
 ProductStatus: Active  
 ProductInStock: 23  
-
+```
 
 **File --> Project Structure --> Artifacts**
 
@@ -155,19 +171,27 @@ http://localhost:8080/productList/
 ![Application](/img/pic1.png?raw=true)
 
 
-020 Develop Add-Product Function - Part 1
+<br/>
+
+### 020 Develop Add-Product Function - Part 1
 
 http://localhost:8080/admin/
 
-021 Develop Add-Product Function - Part 2
+<br/>
+
+### 021 Develop Add-Product Function - Part 2
 
 http://localhost:8080/admin/productInventory/addProduct
 
 
-022 Add Product Image - Part 1
+<br/>
+
+### 022 Add Product Image - Part 1
 
 
-023 Add Product Image - Part 2
+<br/>
+
+### 023 Add Product Image - Part 2
 
 
 **File --> Project Structure --> Artifacts**
@@ -183,16 +207,24 @@ http://localhost:8080/admin/productInventory
 Now we can add and remove images.
 
 
-024 Add Update-Product Function - Part 1
+<br/>
+
+### 024 Add Update-Product Function - Part 1
 
 
-025 Add Update-Product Function - Part 2
+<br/>
+
+### 025 Add Update-Product Function - Part 2
 
 
-026 Page Layout Revisit
+<br/>
+
+### 026 Page Layout Revisit
 
 
-027 Validation
+<br/>
+
+### 027 Validation
 
 pom.xml
 
@@ -207,10 +239,12 @@ Select new jar --> Put into WEB-INF/lib
 
 <br/>
 
-### 06 Online Music Store Website Part 3 - Spring Security, Shopping Cart Functionality
+## 06 Online Music Store Website Part 3 - Spring Security, Shopping Cart Functionality
 
 
-029 Spring Security - Part 1
+<br/>
+
+### 029 Spring Security - Part 1
 
 
 pom.xml new dependency
@@ -224,22 +258,26 @@ pom.xml new dependency
 CSRF - Cross Site Request Forgery
 
 
-030 Spring Security - Part 2
+<br/>
+
+### 030 Spring Security - Part 2
 
 
 https://docs.spring.io/spring-security/site/docs/3.0.x/reference/appendix-schema.html
 
 
-    create table users(
-        username varchar_ignorecase(50) not null primary key,
-        password varchar_ignorecase(50) not null,
-        enabled boolean not null);
+```
+create table users(
+    username varchar_ignorecase(50) not null primary key,
+    password varchar_ignorecase(50) not null,
+    enabled boolean not null);
 
-    create table authorities (
-        username varchar_ignorecase(50) not null,
-        authority varchar_ignorecase(50) not null,
-        constraint fk_authorities_users foreign key(username) references users(username));
-        create unique index ix_auth_username on authorities (username,authority);
+create table authorities (
+    username varchar_ignorecase(50) not null,
+    authority varchar_ignorecase(50) not null,
+    constraint fk_authorities_users foreign key(username) references users(username));
+    create unique index ix_auth_username on authorities (username,authority);
+```
 
 
 add to USERS
@@ -260,7 +298,9 @@ Select new jar --> Put into WEB-INF/lib
 http://localhost:8080/login
 
 
-031 Shopping Cart - Part 1
+<br/>
+
+### 031 Shopping Cart - Part 1
 
 
 pom.xml new dependency
@@ -274,37 +314,57 @@ pom.xml new dependency
 Select new jar --> Put into WEB-INF/lib
 
 
-032 Shopping Cart - Part 2
+<br/>
 
-033 Shopping Cart - Part 3
+### 032 Shopping Cart - Part 2
 
-034 Shopping Cart - Part 4
+<br/>
 
-035 Shopping Cart - Part 5
+### 033 Shopping Cart - Part 3
+
+<br/>
+
+### 034 Shopping Cart - Part 4
+
+<br/>
+
+### 035 Shopping Cart - Part 5
+
+<br/>
 
 ![Application](/img/pic2.png?raw=true)
 
 
 <br/>
 
-### 07 Online Music Store Website Part 4 - Developing a More Sophisticated System
+## 07 Online Music Store Website Part 4 - Developing a More Sophisticated System
 
 
-037 System Flow and Entity Relationship Diagrams
+<br/>
+
+### 037 System Flow and Entity Relationship Diagrams
 
 ![Application](/img/pic3.png?raw=true)
 
 ![Application](/img/pic4.png?raw=true)
 
-038 Adding Various Models - Part 1
+<br/>
 
-039 Adding Various Models - Part 2
+### 038 Adding Various Models - Part 1
 
-040 Product Admin Control - Part 1
+<br/>
+
+### 039 Adding Various Models - Part 2
+
+<br/>
+
+### 040 Product Admin Control - Part 1
 
 http://localhost:8080/product/productList
 
-041 Product Admin Control - Part 2
+<br/>
+
+### 041 Product Admin Control - Part 2
 
     drop table USERS;
     drop table AUTHORITIES
@@ -332,9 +392,13 @@ http://localhost:8080/login
 http://localhost:8080/admin
 
 
-042 Product Admin Control - Part 3
+<br/>
 
-043 Product Admin Control - Part 4
+### 042 Product Admin Control - Part 3
+
+<br/>
+
+### 043 Product Admin Control - Part 4
 
 
     drop table PRODUCT;
@@ -342,16 +406,24 @@ http://localhost:8080/admin
 redeploy app
 
 
-044 Customer Registration - Part 1
+<br/>
 
-045 Customer Registration - Part 2
+### 044 Customer Registration - Part 1
+
+<br/>
+
+### 045 Customer Registration - Part 2
 
 ![Application](/img/pic5.png?raw=true)
 
 
-046 Cart Controller - Part 1
+<br/>
 
-047 Cart Controller - Part 2
+### 046 Cart Controller - Part 1
+
+<br/>
+
+### 047 Cart Controller - Part 2
 
 **File --> Project Structure --> Artifacts**
 
@@ -362,25 +434,35 @@ Remove deprecated spring-security packages
 Apply
 
 
-048 Cart REST Services - Part 1
+<br/>
+
+### 048 Cart REST Services - Part 1
 
 ![Application](/img/pic6.png?raw=true)
 
 
-049 Cart REST Services - Part 2
+<br/>
 
-050 Cart REST Services - Part 3
+### 049 Cart REST Services - Part 2
+
+<br/>
+
+### 050 Cart REST Services - Part 3
 
 ![Application](/img/pic7.png?raw=true)
 
 
 <br/>
 
-### 08 Online Music Store Website Part 5 - Order Checkout - Spring Web Flow
+## 08 Online Music Store Website Part 5 - Order Checkout - Spring Web Flow
 
-051 Add Customer Order
+<br/>
 
-052 Spring Web Flow Config
+### 051 Add Customer Order
+
+<br/>
+
+### 052 Spring Web Flow Config
 
 ![Application](/img/pic8.png?raw=true)
 
@@ -395,9 +477,13 @@ pom.xml new dependency
 Select new jar --> Put into WEB-INF/lib
 
 
-053 Add Web Flow Pages - Part 1
+<br/>
 
-054 Add Web Flow Pages - Part 2
+### 053 Add Web Flow Pages - Part 1
+
+<br/>
+
+### 054 Add Web Flow Pages - Part 2
 
 ![Application](/img/pic9.png?raw=true)
 
@@ -406,19 +492,25 @@ Select new jar --> Put into WEB-INF/lib
 ![Application](/img/pic11.png?raw=true)
 
 
-055 Customer Admin and Registration Validation
+<br/>
+
+### 055 Customer Admin and Registration Validation
 
 ![Application](/img/pic12.png?raw=true)
 
 ![Application](/img/pic13.png?raw=true)
 
 
-056 Add Data Table
+<br/>
+
+### 056 Add Data Table
 
 https://datatables.net/
 
 
-057 Finish Adding Data Table and Add Contact
+<br/>
+
+### 057 Finish Adding Data Table and Add Contact
 
 <br/>
 
